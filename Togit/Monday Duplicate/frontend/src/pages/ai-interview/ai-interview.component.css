@@ -1,0 +1,87 @@
+
+
+.interview-container {
+    margin: 100px auto;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    background-color: #151e33;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    margin-top: 85px;
+}
+
+.interview-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #2c3e5a;
+}
+
+.question-number {
+    width: 48px;
+    height: 48px;
+    background-color: #2563eb;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.header-text h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.question-section{
+    background-color: #1e2c4a;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    height: 300px;
+}
+
+.evaluation-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.analysis-summary,
+.final-decision {
+    background-color: #1e2c4a;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.strengths h4,
+.improvement-areas h4 {
+    margin-bottom: 10px;
+    color: #10b981;
+}
+
+.improvement-areas h4 {
+    color: #eab308;
+}
+
+.decision-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.accepted-badge {
+    color: #10b981;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .evaluation-container {
+        grid-template-columns: 1fr;
+    }
+}
